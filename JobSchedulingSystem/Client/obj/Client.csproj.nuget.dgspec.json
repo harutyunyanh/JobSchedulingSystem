@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\Client\\Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Hovhannes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovhannes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\AppleBrie\\Gits\\Megaflex_V3_CommonLibraries\\libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\Client\\Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\Client\\Client.csproj",
+        "projectName": "Client",
+        "projectPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\Hovhannes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovhannes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\AppleBrie\\Gits\\Megaflex_V3_CommonLibraries\\libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\API.csproj": {
+                "projectPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\API\\API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Hovhannes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovhannes\\Downloads\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\CoffeeShopper-IS4-Part3-Setting_Up_Blazor_Server_Client\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovhannes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\AppleBrie\\Gits\\Megaflex_V3_CommonLibraries\\libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
